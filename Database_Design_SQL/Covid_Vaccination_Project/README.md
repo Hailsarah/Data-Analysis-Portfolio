@@ -3,7 +3,7 @@
 <body>
 
 
-    <h1> DATABASE DESIGN & SQL PROGRAMMING WITH ORACLE ACADEMY </h1>
+    <h2> DATABASE DESIGN & SQL PROGRAMMING WITH ORACLE ACADEMY </h2>
   <h5>  Start Date: 28 July 2021;
 End Date: 9 September 2021
 Details: https://digitalent.kominfo.go.id/
