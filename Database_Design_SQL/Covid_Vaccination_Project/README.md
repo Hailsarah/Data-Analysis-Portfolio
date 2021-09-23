@@ -17,3 +17,4 @@ Details: https://digitalent.kominfo.go.id/
     
 
 </body>
+</html>
