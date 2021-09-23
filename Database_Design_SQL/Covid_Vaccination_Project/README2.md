@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
-<title>Vaccine App Business Scenario</title>
 <body>
 
-<h1>Scenario:</h1>
+<h1>Business Scenario:</h1>
 <p>
 <ul>
   <li>Peserta vaksin melakukan vaksinasi di salah satu Instansi dengan cara mengunjungi/mendaftar pada Instansi terdekat, untuk dilayani oleh Tenaga medis yang sedang bertugas di Instansi tersebut.
