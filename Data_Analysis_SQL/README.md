@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Analysis with SQL</title>
 </head>
 <body>
 
