@@ -7,4 +7,4 @@ SELECT kota, COUNT(nik) value, CONCAT(COUNT(nik), ' Orang')
 FROM peserta_vaksin
 WHERE kota is not null
 GROUP BY kota
-ORDER BY kota
+ORDER BY kota;
