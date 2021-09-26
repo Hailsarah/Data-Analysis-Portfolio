@@ -3,4 +3,4 @@ CONCAT('Dosis ', dosis_vaksin)
 from VAccination
 where DOSIS_VAKSIN is not null
 group by DOSIS_VAKSIN
-order by count(nik)
+order by count(nik);
