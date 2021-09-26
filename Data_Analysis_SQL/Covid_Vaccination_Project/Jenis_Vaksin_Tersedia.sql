@@ -4,4 +4,4 @@ from vaccine
 INNER JOIN instansi ON vaccine.ID_INSTANSI = instansi.ID_INSTANSI
 where vaccine.JENIS_VAKSIN is not null
 group by vaccine.JML_VAKSIN_TERSEDIA, jenis_vaksin, instansi.KOTA_INSTANSI
-order by vaccine.JML_VAKSIN_TERSEDIA
+order by vaccine.JML_VAKSIN_TERSEDIA;
