@@ -19,8 +19,8 @@ FROM MOVIES
 WHERE date_added < '01-03-2011'
 ORDER BY duration_in_minutes;
 
--- [movies] Write a query to display the title, country, duration_in_minutes, and release_year, for all movies that were released between 2014 and 2016.
-Sort the output by duration_in_minutes (descending) --
+-- [movies] Write a query to display the title, country, duration_in_minutes, and release_year, for all movies that were released between 2014 and 2016.---
+--- Sort the output by duration_in_minutes (descending) --
 
 SELECT title, country,
 duration_in_minutes, 
@@ -40,8 +40,8 @@ FROM MOVIES
 WHERE duration_in_minutes BETWEEN 180 AND 240
 ORDER BY duration_in_minutes DESC ;
 
--- [series] Write a query to display the title, director, rating, num_of_seasons for all series with 10 to 14 seasons.
-Sort the output by num_of_seasons (descending) --
+-- [series] Write a query to display the title, director, rating, num_of_seasons for all series with 10 to 14 seasons. --
+-- Sort the output by num_of_seasons (descending) --
 
 SELECT title, director, rating, num_of_seasons
 FROM SERIES
@@ -49,8 +49,8 @@ WHERE num_of_seasons BETWEEN 10 AND 14
 ORDER BY num_of_seasons DESC;
 
 
--- [series] Write a query to display the title, director, rating, num_of_seasons
-for all series- -
+-- [series] Write a query to display the title, director, rating, num_of_seasons --
+-- for all series- -
 
 -- a. containing value in the director column (diretor not equals null)--
 
@@ -77,11 +77,12 @@ rating
 FROM MOVIES
 WHERE CAST = 'Ryan Reynolds' 
 AND CAST = 'Nicolas Cage';
-[movies] Write a query to display the title, director, cast, country, duration_in_minutes, and rating
 
-a. for all movies having PG (Parental Guidance) in their rating
+-- [movies] Write a query to display the title, director, cast, country, duration_in_minutes, and rating --
 
-b. and movie duration is greater than 3 hours
+-- a. for all movies having PG (Parental Guidance) in their rating --
+
+-- b. and movie duration is greater than 3 hours--
 
 SELECT title, 
 director, 
