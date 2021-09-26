@@ -1,5 +1,5 @@
---- [movies] Write a query to display the title, rating, country, release_year, and director, for all movies directed by Michael Bay.
-Sort the output by release_year (ascending)---
+--- [movies] Write a query to display the title, rating, country, release_year, and director, for all movies directed by Michael Bay. ---
+--- Sort the output by release_year (ascending)---
 
 SELECT title, 
 rating, 
