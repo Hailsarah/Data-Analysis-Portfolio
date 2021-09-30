@@ -1,4 +1,4 @@
---- [movies] Write a query to display the title, rating, country, release_year, and director, for all movies directed by Michael Bay. ---
+--- [TABLE: movies] Write a query to display the title, rating, country, release_year, and director, for all movies directed by Michael Bay. ---
 --- Sort the output by release_year (ascending)---
 
 SELECT title, 
@@ -10,7 +10,7 @@ FROM MOVIES
 WHERE DIRECTOR = 'Michael Bay'
 ORDER BY release_year;
 
--- [movies] Write a query to display the title, country, duration_in_minutes, and date_added, for all movies that were added before March 2011. Sort the output by duration_in_minutes (ascending)
+-- [TABLE:movies] Write a query to display the title, country, duration_in_minutes, and date_added, for all movies that were added before March 2011. Sort the output by duration_in_minutes (ascending)
 --
 SELECT title, country, 
 duration_in_minutes, 
